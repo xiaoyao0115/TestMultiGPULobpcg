@@ -10,12 +10,19 @@ set(ENV{PKG_CONFIG_PATH} ${PETSC}/lib/pkgconfig)
 set(SLPEC $ENV{SLEPC_DIR}/$ENV{PETSC_ARCH})
 set(ENV{PKG_CONFIG_PATH} $ENV{PKG_CONFIG_PATH}:${SLPEC}/lib/pkgconfig)
 
+
 message(STATUS "source path: ${PETSC}")
 message(STATUS "source path: ${SLPEC}")
 
-project(doctor)
+project(GPU-CG  LANGUAGES C CXX CUDA)
 
-set(targets TestLobpcg)
+set(CMAKE_CUDA_COMPILER "nvcc")
+set(CMAKE_CXX_COMPILER "mpic++")
+
+set(targets TestLobpcg TestLinearSolver)
+
+find_package(CUDA REQUIRED)
+include_directories(${CUDA_INCLUDE_DIRS})
 
 foreach(x IN LISTS targets)
     add_executable(${x} ${x}.cpp)

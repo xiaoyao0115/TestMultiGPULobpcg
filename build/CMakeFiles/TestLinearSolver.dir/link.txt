@@ -1,0 +1,1 @@
+mpic++ -rdynamic CMakeFiles/TestLinearSolver.dir/TestLinearSolver.cpp.o -o TestLinearSolver  -Wl,-rpath,/workspace/work_data/petsc/multi-gpu-slepc/lib /workspace/work_data/petsc/multi-gpu-slepc/lib/libslepc.so /workspace/work_data/petsc/multi-gpu-slepc/lib/libpetsc.so

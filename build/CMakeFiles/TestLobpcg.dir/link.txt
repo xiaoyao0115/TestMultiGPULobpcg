@@ -1,0 +1,1 @@
+mpic++ -rdynamic CMakeFiles/TestLobpcg.dir/TestLobpcg.cpp.o -o TestLobpcg  -Wl,-rpath,/workspace/work_data/petsc/multi-gpu-slepc/lib /workspace/work_data/petsc/multi-gpu-slepc/lib/libslepc.so /workspace/work_data/petsc/multi-gpu-slepc/lib/libpetsc.so

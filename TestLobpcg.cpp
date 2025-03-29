@@ -237,16 +237,16 @@ PetscErrorCode EPSSolve_LOBPCG(EPS eps)
             PetscCall(BVGetColumn(R, j, &v));
             PetscCall(VecNorm(v, NORM_2, &norm));
             PetscCall(BVRestoreColumn(R, j, &v));
-            PetscCall((*eps->converged)(eps, eps->eigr[i], eps->eigi[i], norm, &eps->errest[i], eps->convergedctx));
-            if (countc)
-            {
-                if (eps->errest[i] < eps->tol)
-                    k++;
-                else
-                    countc = PETSC_FALSE;
-            }
-            if (!countc && !eps->trackall)
-                break;
+            // PetscCall((*eps->converged)(eps, eps->eigr[i], eps->eigi[i], norm, &eps->errest[i], eps->convergedctx));
+            // if (countc)
+            // {
+            //     if (eps->errest[i] < eps->tol)
+            //         k++;
+            //     else
+            //         countc = PETSC_FALSE;
+            // }
+            // if (!countc && !eps->trackall)
+            //     break;
         }
 
         nconv = k;
@@ -525,17 +525,11 @@ int main(int argc, char **argv)
     PetscCall(PetscOptionsGetString(nullptr, nullptr, "-fileA", filenameA, sizeof(filenameA), &flgA));
     PetscCall(PetscOptionsGetString(nullptr, nullptr, "-fileB", filenameB, sizeof(filenameB), &flgB));
     PetscCall(PetscPrintf(PETSC_COMM_WORLD, "\nmatrix:%s\n", filenameA));
-    PetscCall(PetscPrintf(PETSC_COMM_WORLD, "\nEigenproblem stored in file.\n\n"));
     PetscCheck(flgA, PETSC_COMM_WORLD, PETSC_ERR_USER_INPUT, "Must indicate a file name with the -file option");
-#if defined(PETSC_USE_COMPLEX)
-    PetscCall(PetscPrintf(PETSC_COMM_WORLD, " Reading COMPLEX matrix from a binary file...\n"));
-#else
-    PetscCall(PetscPrintf(PETSC_COMM_WORLD, " Reading REAL matrix from a binary file...\n"));
-#endif
     PetscCall(PetscViewerBinaryOpen(PETSC_COMM_WORLD, filenameA, FILE_MODE_READ, &viewer)); // 先读入viewer
     // PetscCall(PetscViewerASCIIOpen(PETSC_COMM_WORLD, filename, &viewer));
     PetscCall(MatCreate(PETSC_COMM_WORLD, &A));
-    // MatSetType(A,MATAIJCUSPARSE);
+    MatSetType(A,MATMPIAIJCUSPARSE);
     PetscCall(MatSetFromOptions(A));
     PetscCall(MatLoad(A, viewer)); // 再load
     PetscCall(PetscViewerDestroy(&viewer));
@@ -549,7 +543,6 @@ int main(int argc, char **argv)
         PetscCall(MatLoad(B, viewer)); // 再load
         PetscCall(PetscViewerDestroy(&viewer));
     }
-    PetscCall(PetscPrintf(PETSC_COMM_WORLD, " Reading complete!\n"));
 
     // PetscCall(MatView(A, PETSC_VIEWER_STDOUT_SELF));
 
@@ -605,7 +598,7 @@ int main(int argc, char **argv)
     PetscCall(STSetType(st, STPRECOND));
     PetscCall(EPSSetProblemType(eps, EPS_GHEP));
     PetscCall(EPSSetType(eps, EPSLOBPCG)); // EPSLANCZOS  EPSBLOPEX EPSJD EPSLOBPCG
-    EPSSetTolerances(eps, tol, 5000);      /// 设置误差
+    EPSSetTolerances(eps, tol, 100);      /// 设置误差
 
     PetscOptionsGetInt(nullptr, nullptr, "-iter", &ksp_iter, &flg);
     PetscCall(PetscOptionsGetString(nullptr, nullptr, "-PC", my_pc, sizeof(my_pc), &flg));
@@ -626,7 +619,6 @@ int main(int argc, char **argv)
     PCSetType(pc, PCJACOBI);
     PetscCall(KSPSetTolerances(ksp, cg_tol, cg_tol, PETSC_DEFAULT, ksp_iter)); // 这个地方设置CG求解的最大迭代次数
 
-    PetscCall(PetscPrintf(PETSC_COMM_WORLD, " 准备求解!\n"));
     double start = MPI_Wtime();
     PetscCall(EPSSolve(eps));
     double end = MPI_Wtime(); // 计时开始！！

@@ -1,0 +1,222 @@
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Cube_Coup_dt6.petsc
+ Number of iterations of the method: 1000
+ time cost: 151.397 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Cube_Coup_dt6.petsc
+ Number of iterations of the method: 1000
+ time cost: 358.023 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Cube_Coup_dt6.petsc
+ Number of iterations of the method: 1000
+ time cost: 237.794 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Transport.petsc
+ Number of iterations of the method: 1000
+ time cost: 79.5279 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Transport.petsc
+ Number of iterations of the method: 1000
+ time cost: 268.652 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Transport.petsc
+ Number of iterations of the method: 1000
+ time cost: 185.418 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Flan_1565.petsc
+ Number of iterations of the method: 1000
+ time cost: 130.932 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Flan_1565.petsc
+ Number of iterations of the method: 1000
+ time cost: 287.741 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Flan_1565.petsc
+ Number of iterations of the method: 1000
+ time cost: 190.368 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Hook_1498.petsc
+ Number of iterations of the method: 1000
+ time cost: 97.2372 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Hook_1498.petsc
+ Number of iterations of the method: 1000
+ time cost: 264.218 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Hook_1498.petsc
+ Number of iterations of the method: 1000
+ time cost: 180.138 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Long_Coup_dt0.petsc
+ Number of iterations of the method: 1000
+ time cost: 111.673 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Long_Coup_dt0.petsc
+ Number of iterations of the method: 1000
+ time cost: 256.021 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Long_Coup_dt0.petsc
+ Number of iterations of the method: 1000
+ time cost: 174.409 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Geo_1438.petsc
+ Number of iterations of the method: 1000
+ time cost: 98.508 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Geo_1438.petsc
+ Number of iterations of the method: 1000
+ time cost: 252.158 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Geo_1438.petsc
+ Number of iterations of the method: 1000
+ time cost: 175.494 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Emilia_923.petsc
+ Number of iterations of the method: 1000
+ time cost: 78.1788 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Emilia_923.petsc
+ Number of iterations of the method: 1000
+ time cost: 181.637 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/Emilia_923.petsc
+ Number of iterations of the method: 1000
+ time cost: 131.949 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/CoupCons3D.petsc
+ Number of iterations of the method: 1000
+ time cost: 60.8065 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/CoupCons3D.petsc
+ Number of iterations of the method: 1000
+ time cost: 130.856 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/CoupCons3D.petsc
+ Number of iterations of the method: 1000
+ time cost: 143.395 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/msdoor.petsc
+ Number of iterations of the method: 1000
+ time cost: 60.1885 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/msdoor.petsc
+ Number of iterations of the method: 1000
+ time cost: 128.155 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/msdoor.petsc
+ Number of iterations of the method: 1000
+ time cost: 115.72 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/halfb.petsc
+ Number of iterations of the method: 1000
+ time cost: 53.5079 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/halfb.petsc
+ Number of iterations of the method: 1000
+ time cost: 87.839 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/halfb.petsc
+ Number of iterations of the method: 1000
+ time cost: 88.1161 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/pwtk.petsc
+ Number of iterations of the method: 1000
+ time cost: 53.3717 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/pwtk.petsc
+ Number of iterations of the method: 1000
+ time cost: 75.2537 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/pwtk.petsc
+ Number of iterations of the method: 1000
+ time cost: 68.0517 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/shipsec5.petsc
+ Number of iterations of the method: 1000
+ time cost: 52.8273 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/shipsec5.petsc
+ Number of iterations of the method: 1000
+ time cost: 69.7178 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/shipsec5.petsc
+ Number of iterations of the method: 1000
+ time cost: 66.0029 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/consph.petsc
+ Number of iterations of the method: 1000
+ time cost: 48.3753 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/consph.petsc
+ Number of iterations of the method: 1000
+ time cost: 59.3645 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/consph.petsc
+ Number of iterations of the method: 1000
+ time cost: 58.1405 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/apache1.petsc
+ Number of iterations of the method: 1000
+ time cost: 45.5884 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/apache1.petsc
+ Number of iterations of the method: 1000
+ time cost: 57.3037 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/apache1.petsc
+ Number of iterations of the method: 1000
+ time cost: 57.4699 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/oilpan.petsc
+ Number of iterations of the method: 1000
+ time cost: 47.7295 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/oilpan.petsc
+ Number of iterations of the method: 1000
+ time cost: 58.5069 
+ Linear eigensolve did not converge due to DIVERGED_ITS; iterations 1000
+
+matrix:/workspace/work_data/MatrixData/structural/petsc/oilpan.petsc
